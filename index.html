@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess The Emoji</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="game-container">
+        <h2>🎯 Guess The Emoji</h2>
+
+        <div id="emojiBox" class="emoji-box">🍔🍟</div>
+
+        <input type="text" id="answerInput" placeholder="اكتب الإجابة هنا">
+        <button onclick="checkAnswer()">تحقق ✔️</button>
+
+        <p id="message"></p>
+
+        <div class="level">المستوى: <span id="levelNumber">1</span></div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
